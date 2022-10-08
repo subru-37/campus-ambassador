@@ -1,8 +1,8 @@
 .member {
-  width: 100%;
   padding: 120px 0;
   text-align: center;
   background: url("${}") no-repeat center/cover;
+
 }
 .h2 {
   color: #ed563b;
