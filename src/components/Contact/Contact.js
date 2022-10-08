@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx, css } from "@emotion/core";
 import React from "react";
-import Container from "../GlobalComponents/Container";
+import Container from "../GlobalComponents/Container/Container";
 import Map from "./Map";
 import Form from "./Form";
 
@@ -13,7 +13,7 @@ const Contact = () => (
     </Container>
     <footer>
       <p>
-        Copyright &copy; © 2020 Training Studio - Designed by{" "}
+        Copyright &copy; © 2022 EXCEL - Designed by{" "}
         <a href="https://templatemo.com/" target="_blank">
           TemplateMo
         </a>

@@ -1,15 +1,15 @@
 import React from "react";
 import "./App.css";
-import Main from "./components/Main/Main";
-import GymProgram from "./components/GymProgram/GymProgram";
-import Member from "./components/Member/Member";
-import Contact from './components/Contact/Contact';
+import Main from "./components/Main/Main/Main";
+import Rewards from "./components/Rewards/Rewards/Rewards";
+import Events from "./components/Events/Events";
+import Contact from "./components/Contact/Contact";
 
 const App = () => (
   <div className="App">
     <Main />
-    <GymProgram />
-    <Member />
+    <Rewards />
+    <Events />
     <Contact />
   </div>
 );

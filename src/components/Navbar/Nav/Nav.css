@@ -1,30 +1,46 @@
 
-.navbar{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    padding: 20px 0;
-    background: rgba(250, 250, 250, 0.1);
-    z-index: 20;
-    
-    @media (max-width: 1000px) {
-      background: rgba(35, 45, 57, 0.8);
-      .container {
-        flex-wrap: wrap;
-        #burgerMenu {
-          display: block;
-        }
+
+.navbar {
+  width: 100%;
+  position: absolute;
+  top: 0;
+   padding: 20px 0; 
+  z-index: 10;
+  border-radius: 16px;
+  /* STYLE1 */
+
+  background: linear-gradient(
+    106.27deg,
+    rgba(0, 0, 0, 0.31) 24.72%,
+    rgba(167, 238, 255, 0.31) 69.99%
+  );
+  background-blend-mode: hard-light;
+ 
+  /* EFFECT 1 */
+
+  box-shadow: 2px 4px 16px #70ffff;
+  @media (max-width: 1000px) {
+  
+    background: rgba(35, 45, 57, 0.8);
+    .container {
+      flex-wrap: wrap;
+      #burgerMenu {
+        /* display: block; */
       }
-    }
-}
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     
   }
-  #burgerMenu {
-    color: #fff;
-    cursor: pointer;
-    display: none;
   }
+  
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+#burgerMenu {
+  color: #1bb0ca;
+  cursor: pointer;
+  display: none;
+}

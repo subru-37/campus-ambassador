@@ -1,0 +1,39 @@
+.info {
+  display:flex;
+  z-index: 4;
+  text-align: center;
+  color: #fff;
+  height: 100vh;
+  align-items: center;
+  gap: 5%;
+}
+p {
+  font-size: 17px;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: 1.2px;
+  
+}
+h1 {
+  font-size: 90px;
+  line-height: 1;
+  font-weight: 900;
+  margin: 36px 0;
+  color: #fff;
+  
+text-shadow: 0px 4px 27px #05E8FA
+}
+.excel{
+text-shadow: 0px 4px 27px #05E8FA;
+}
+.btn {
+  padding: 14px 16px;
+  box-shadow: inset 0px 4px 4px #05E8FA;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(21px 8px 71px #05E8FA); 
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 42px;
+  }
+}
