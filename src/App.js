@@ -8,8 +8,8 @@ import Faq from "./components/FAQ/Faq";
 const App = () => (
   <div className="App">
     <Main />
-    <Rewards />
     <Events />
+    <Rewards />
     <Faq />
     <Contact />
   </div>

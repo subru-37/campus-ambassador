@@ -14,7 +14,8 @@ const Nav = () => {
     /* <div style={{width: '100px'}}></div> */
     <nav className="navbar">
       <Container>
-        <Logo />
+      <Logo />
+       
         <i
           onClick={() => setHidden(!hidden)}
           className={hidden ? "fas fa-bars fa-lg" : "fas fa-times fa-lg"}

@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx, css } from "@emotion/core";
 import React from "react";
-
+import './RewardsCard.css'
 const RewardsCard = ({ title, desc }) => (
   <div css={styles} className="card">
     <img alt="dumbbell" />

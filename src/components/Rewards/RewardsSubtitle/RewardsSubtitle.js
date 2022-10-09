@@ -4,9 +4,9 @@ import React from "react";
 
 const RewardsSubtitle = () => (
   <p css={styles}>
-    Training Studio is free CSS template for gyms and fitness centers. You are{" "}
+    Excel 2022 is on{" "}
     <br />
-    allowed to use this layout for your business website.
+   October
   </p>
 );
 

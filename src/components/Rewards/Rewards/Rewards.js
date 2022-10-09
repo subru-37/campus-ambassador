@@ -14,28 +14,28 @@ const Rewards = () => (
     <RewardsSubtitle />
     <Container>
       <RewardsCard
-        title="Basic Fitness"
-        desc="Please do not re-distribute this template ZIP file on any template collection website. This is not allowed."
+        title="Lorem Ipsum"
+        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam enim ex, iaculis vel placerat ut, consectetur lacinia risus"
       />
       <RewardsCard
-        title="Advanced Muscle Course"
-        desc="You may want to browse through Digital Marketing or Corporate HTML CSS templates on our website."
+        title="Lorem Ipsum"
+        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam enim ex, iaculis vel placerat ut, consectetur lacinia risus"
       />
       <RewardsCard
-        title="New Gym Training"
-        desc="If you wish to support TemplateMo website via PayPal, please feel free to contact us. We appreciate it a lot."
+        title="Lorem Ipsum"
+        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam enim ex, iaculis vel placerat ut, consectetur lacinia risus"
       />
       <RewardsCard
-        title="Yoga Training"
-        desc="This template is built on Bootstrap v4.3.1 framework. It is easy to adapt the columns and sections."
+        title="Lorem Ipsum"
+        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam enim ex, iaculis vel placerat ut, consectetur lacinia risus"
       />
       <RewardsCard
-        title="Basic Muscle Course"
-        desc="Credit goes to Pexels website for images and video background used in this HTML template."
+        title="Lorem Ipsum"
+        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam enim ex, iaculis vel placerat ut, consectetur lacinia risus"
       />
       <RewardsCard
-        title="Body Building Course"
-        desc="Suspendisse fringilla et nisi et mattis. Curabitur sed finibus nisi. Integer nibh sapien, vehicula et auctor."
+        title="Lorem Ipsum"
+        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam enim ex, iaculis vel placerat ut, consectetur lacinia risus"
       />
     </Container>
   </div>

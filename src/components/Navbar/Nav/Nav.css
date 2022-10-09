@@ -19,18 +19,14 @@
   /* EFFECT 1 */
 
   box-shadow: 2px 4px 16px #70ffff;
-  @media (max-width: 1000px) {
+ 
   
-    background: rgba(35, 45, 57, 0.8);
-    .container {
-      flex-wrap: wrap;
-      #burgerMenu {
-        /* display: block; */
-      }
-    
-  }
-  }
+}
+@media (max-width: 1000px) {
+  .container {
+    flex-wrap: wrap;
   
+}
 }
 
 .container {

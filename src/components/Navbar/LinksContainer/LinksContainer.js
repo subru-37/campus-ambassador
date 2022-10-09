@@ -9,9 +9,11 @@ const LinksContainer = ({ hidden }) => {
     <div id="LinksContainer" className={(hidden ? "hidden" : "") + " linksContainer"}>
       <Link name="HOME" linkTo="#home" />
       <Link name="CONTACT" linkTo="#contact" />
-      <Link name="REGISTER" linkTo="#ourClasses" />
       <Button text="LOGIN" />
-      <Button text="SIGN UP" />
+      <Button text="REGISTER" />
+      <a href="javascript:void(0);" className="icon" onclick="myFunction()" >
+      <i class="fa fa-bars"></i>
+      </a>
     </div>
   );
 };
