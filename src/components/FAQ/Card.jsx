@@ -1,9 +1,14 @@
 import React,{useState} from "react";
 import {FaRegPlusSquare } from "react-icons/fa";
+
 export default function Card(props){
     const [boolCheck,setBoolCheck] = useState(false);
+    const [onMouseHover,setOnMouseHover] = useState(false);
     function changeBool(){
         setBoolCheck(!boolCheck);
+    }
+    function onHover(){
+        setOnMouseHover(!onMouseHover);
     }
     return(
         <div className="faq-container">
@@ -17,11 +22,14 @@ export default function Card(props){
                         className="button" 
                         style=
                         {{
-                            backgroundColor:"#001c3d",
-                            color:"white",
-                            border: "none"
+                            color: onMouseHover ? "#05E8FA" : "white",
+                            border: "none",
+                            cursor:"pointer"
                         }}>
-                            <FaRegPlusSquare/>
+                            <FaRegPlusSquare
+                                onMouseEnter={onHover}
+                                onMouseOut={onHover}
+                            />
                     </button>
                 </div>
             </div>

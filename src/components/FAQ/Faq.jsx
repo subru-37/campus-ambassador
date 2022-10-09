@@ -4,12 +4,16 @@ import { data } from "./Content";
 import Card from "./Card";
 export default function Faq(){
     return(
-        <div>
+        <div className="faq-parent">
             {data.map(x=>(
-                <Card
-                    question={x.Q}
-                    answer={x.A}
-                />
+                <div>
+                    <Card
+                        question={x.Q}
+                        answer={x.A}
+                    />
+                    <br/>
+                </div>
+
             ))}
         </div>
     );
