@@ -1,5 +1,5 @@
 {
-  "homepage": "https://karthikgkumar.github.io/Excel-CampusAmbassador",
+  "homepage": "https://subru-37.github.io/Campus-Ambassador",
   "name": "excel-website",
   "version": "0.1.0",
   "private": true,
@@ -22,7 +22,7 @@
     "styled-components": "^5.3.6"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
