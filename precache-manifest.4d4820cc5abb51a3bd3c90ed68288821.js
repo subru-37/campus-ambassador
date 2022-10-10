@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e57c17dbe088cd211c6d092249c78546",
+    "revision": "e65c6961e7f264b3fe89d7db890776a8",
     "url": "/Campus-Ambassador/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Campus-Ambassador/static/css/2.c09b746d.chunk.css"
   },
   {
-    "revision": "077c46434e6245a34d7c",
+    "revision": "c891e8457df494e091ed",
     "url": "/Campus-Ambassador/static/css/main.b0b1511b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Campus-Ambassador/static/js/2.9208a1a3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "077c46434e6245a34d7c",
-    "url": "/Campus-Ambassador/static/js/main.56a4e0bd.chunk.js"
+    "revision": "c891e8457df494e091ed",
+    "url": "/Campus-Ambassador/static/js/main.d2d37ee3.chunk.js"
   },
   {
     "revision": "a53c6647a44bbed520a6",

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Campus-Ambassador/static/css/main.b0b1511b.chunk.css",
-    "main.js": "/Campus-Ambassador/static/js/main.56a4e0bd.chunk.js",
-    "main.js.map": "/Campus-Ambassador/static/js/main.56a4e0bd.chunk.js.map",
+    "main.js": "/Campus-Ambassador/static/js/main.d2d37ee3.chunk.js",
+    "main.js.map": "/Campus-Ambassador/static/js/main.d2d37ee3.chunk.js.map",
     "runtime-main.js": "/Campus-Ambassador/static/js/runtime-main.1439f200.js",
     "runtime-main.js.map": "/Campus-Ambassador/static/js/runtime-main.1439f200.js.map",
     "static/css/2.c09b746d.chunk.css": "/Campus-Ambassador/static/css/2.c09b746d.chunk.css",
     "static/js/2.9208a1a3.chunk.js": "/Campus-Ambassador/static/js/2.9208a1a3.chunk.js",
     "static/js/2.9208a1a3.chunk.js.map": "/Campus-Ambassador/static/js/2.9208a1a3.chunk.js.map",
     "index.html": "/Campus-Ambassador/index.html",
-    "precache-manifest.293e0735547bf2363526c6b5c59d0a51.js": "/Campus-Ambassador/precache-manifest.293e0735547bf2363526c6b5c59d0a51.js",
+    "precache-manifest.4d4820cc5abb51a3bd3c90ed68288821.js": "/Campus-Ambassador/precache-manifest.4d4820cc5abb51a3bd3c90ed68288821.js",
     "service-worker.js": "/Campus-Ambassador/service-worker.js",
     "static/css/2.c09b746d.chunk.css.map": "/Campus-Ambassador/static/css/2.c09b746d.chunk.css.map",
     "static/css/main.b0b1511b.chunk.css.map": "/Campus-Ambassador/static/css/main.b0b1511b.chunk.css.map",
@@ -25,6 +25,6 @@
     "static/css/2.c09b746d.chunk.css",
     "static/js/2.9208a1a3.chunk.js",
     "static/css/main.b0b1511b.chunk.css",
-    "static/js/main.56a4e0bd.chunk.js"
+    "static/js/main.d2d37ee3.chunk.js"
   ]
 }
