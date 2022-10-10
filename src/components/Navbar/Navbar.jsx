@@ -22,10 +22,10 @@ import logo from '../../assets/Image/excellogowithtext.svg';
 import Link from '@mui/material/Link';
 const drawerWidth = '75vw';
 // const navItems = ['HOME','CONTACT','REGISTER'];
+var w = window.innerWidth;
 const navItems = [<a style={{textDecoration:'none', color:'white',fontSize: w<600 ? '1rem' : '1.5rem'}} href='/'>HOME</a>,
                     <a style={{textDecoration:'none', color:'white',fontSize: w<600 ? '1rem' : '1.5rem'}} href='/'>LOCATION</a>,
                     <a style={{textDecoration:'none', color:'white',fontSize: w<600 ? '1rem' : '1.5rem'}} href='/'>REGISTER</a>];
-var w = window.innerWidth;
 
 function Navbar(props) {
   const { window } = props;
