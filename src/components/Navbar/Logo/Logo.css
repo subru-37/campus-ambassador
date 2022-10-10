@@ -1,0 +1,12 @@
+.logoExcel {
+  height: 100px;
+}
+@media (max-width: 1000px) {
+  .logoExcel {
+    height: 70px;
+    max-width: 100%;
+  }
+}
+/* .Logo.span {
+    color: ;
+  } */
