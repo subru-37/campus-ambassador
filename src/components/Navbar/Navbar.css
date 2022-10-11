@@ -116,6 +116,10 @@
       font-size: 2rem;
       color: white;
     }
+
+    .close_nav_icon {
+      cursor: pointer;
+    }
   
     .navbar__mobcontents {
       flex: 0.6;
