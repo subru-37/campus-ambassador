@@ -1,0 +1,336 @@
+.contact {
+  min-height: 100vh;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  background: linear-gradient(180deg, #050d18 82.03%, #001c3d 100%);
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  column-gap: 1em;
+}
+.contact_text {
+  font-family: var(--primary-font);
+  text-shadow: 0px 4px 27px #05e8fa;
+  font-size: 2rem;
+  color: white;
+  letter-spacing: 0.065em;
+  margin-left: 1em;
+}
+.box {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: row;
+  margin-left: 2em;
+  column-gap: 7em;
+}
+.contactNumber {
+  display: flex;
+  justify-content: space-around;
+  min-width: 80vw;
+  align-items: left;
+  flex-direction: column;
+  font-family: var(--primary-font);
+  text-shadow: 0px 4px 27px #05e8fa;
+  color: white;
+}
+.location {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    column-gap: 1em;
+  }
+.location_text {
+  font-family: var(--primary-font);
+  text-shadow: 0px 4px 27px #05e8fa;
+  font-size: 2rem;
+  color: white;
+  letter-spacing: 0.065em;
+  margin-left: 1em;
+  padding-top: 1.5em;
+    }
+
+.location_details{
+    font-family: var(--primary-font);
+    text-shadow: 0px 4px 27px #05e8fa;
+    font-size: 2rem;
+    color: white;
+    letter-spacing: 0.065em;
+    margin-left: 1em;
+    padding-top: 1em;
+
+}
+.h3text {
+  font-size: 1.3rem;
+}
+.h4text {
+  font-size: 1.3rem;
+}
+.locationMap{
+    display: flex;
+    flex-direction: row;
+    
+}
+.location_model{
+    display: flex;
+    flex-direction: row;
+    min-width: 80vh;
+    min-height: 60vh;
+
+}
+@media only screen and (max-width: 600px) {
+  .contact {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #050d18 82.03%, #001c3d 100%);
+  }
+  .line {
+    max-width: 80vw;
+    padding-top: 0;
+    flex-direction: column;
+    min-height: 7vh;
+  }
+  .contact_text {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 1em;
+  }
+  .h3text {
+    padding: 1rem 0;
+  }
+  .h4text {
+    padding: 1rem 0;
+  }
+  .contactNumber {
+    flex-direction: column;
+    column-gap: 0.5em;
+  }
+  .box {
+    padding: 0 2rem;
+  }
+  .location{
+    max-width: 93vw;
+    padding-top: 0;
+    flex-direction: column;
+    min-height: 85vh;
+  }
+  .location_text{
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 1em;
+  }
+  .location_details{
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 1em;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (max-height: 700px) { 
+    .contact {
+        min-height: 100vh;
+        background: linear-gradient(180deg, #050d18 82.03%, #001c3d 100%);
+      }
+      .line {
+        max-width: 80vw;
+        padding-top: 0;
+        flex-direction: column;
+        min-height: 7vh;
+      }
+      .contact_text {
+        font-size: 1.5rem;
+        text-align: left;
+        margin-left: 1em;
+      }
+      .h3text {
+        padding: 1rem 0;
+      }
+      .h4text {
+        padding: 1rem 0;
+      }
+      .contactNumber {
+        flex-direction: column;
+        column-gap: 0.5em;
+      }
+      .box {
+        padding: 0 2rem;
+      }
+      .location{
+        max-width: 93vw;
+        padding-top: 0;
+        flex-direction: column;
+        min-height: 85vh;
+      }
+      .location_text{
+        font-size: 1.5rem;
+        text-align: left;
+        margin-left: 1em;
+      }
+      .location_details{
+        font-size: 1rem;
+        text-align: left;
+        margin-left: 1em;
+      }
+      .location_model{
+        display: flex;
+        flex-direction: row;
+        min-width: 10em;
+        min-height: 5em;
+    
+    }
+    .locationMap{
+        display: flex;
+        flex-direction: column;
+    }
+    .location_map{
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 800px) {
+    .contact {
+        min-height: 100vh;
+        background: linear-gradient(180deg, #050d18 82.03%, #001c3d 100%);
+      }
+      .line {
+        max-width: 80vw;
+        padding-top: 0;
+        flex-direction: column;
+        min-height: 7vh;
+      }
+      .contact_text {
+        font-size: 1.5rem;
+        text-align: left;
+        margin-left: 1em;
+      }
+      .h3text {
+        padding: 1rem 0;
+      }
+      .h4text {
+        padding: 1rem 0;
+      }
+      .contactNumber {
+        flex-direction: column;
+        column-gap: 0.5em;
+      }
+      .box {
+        padding: 0 2rem;
+      }
+      .location{
+        max-width: 93vw;
+        padding-top: 0;
+        flex-direction: column;
+        min-height: 30vh;
+      }
+      .location_text{
+        font-size: 1.5rem;
+        text-align: left;
+        margin-left: 1em;
+      }
+      .location_details{
+        font-size: 1rem;
+        text-align: left;
+        margin-left: 1em;
+      }
+      .locationMap{
+          display: flex;
+          flex-direction: column;
+          
+      }
+      .location_model{
+        display: flex;
+        flex-direction: row;
+        min-width: 30rem;
+        min-height:25rem;
+       
+    
+    
+    }
+    .location_map{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
+    .contact {
+        min-height: 100vh;
+        background: linear-gradient(180deg, #050d18 82.03%, #001c3d 100%);
+      }
+      .line {
+        max-width: 80vw;
+        padding-top: 0;
+        flex-direction: column;
+        min-height: 7vh;
+      }
+      .contact_text {
+        font-size: 1.5rem;
+        text-align: left;
+        margin-left: 1em;
+      }
+      .h3text {
+        padding: 1rem 0;
+      }
+      .h4text {
+        padding: 1rem 0;
+      }
+      .contactNumber {
+        flex-direction: column;
+        column-gap: 0.5em;
+      }
+      .box {
+        padding: 0 2rem;
+      }
+      .location{
+        max-width: 93vw;
+        padding-top: 0;
+        flex-direction: column;
+        min-height: 85vh;
+      }
+      .location_text{
+        font-size: 1.5rem;
+        text-align: left;
+        margin-left: 1em;
+      }
+      .location_details{
+        font-size: 1rem;
+        text-align: left;
+        margin-left: 1em;
+      }
+      .locationMap{
+          display: flex;
+          flex-direction: column;
+      }
+      .location_model{
+        display: flex;
+        flex-direction: row;
+        min-width: 20vh;
+        min-height:20vh;
+        justify-content: center;
+    
+    
+    }
+
+}
