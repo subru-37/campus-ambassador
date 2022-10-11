@@ -4,7 +4,9 @@ import './Main.css'
 
 function Main() {
   return (
-    <div>Main</div>
+    <div className='main'>
+      
+    </div>
   )
 }
 

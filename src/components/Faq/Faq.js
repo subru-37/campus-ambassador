@@ -4,7 +4,7 @@ import './Faq.css'
 
 function Faq() {
   return (
-    <div>Faq</div>
+    <div className='faq'>Faq</div>
   )
 }
 
