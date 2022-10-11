@@ -69,7 +69,7 @@ function Navbar() {
       >
         <div className="navbar__mob">
           <div className="navbar_mob_close" onClick={handleDrawerClose}>
-            <IoClose />
+            <IoClose className="close_nav_icon"/>
           </div>
           <div className="navbar__mobcontents">
             <NavLink
