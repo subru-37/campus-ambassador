@@ -38,31 +38,31 @@ function Navbar() {
         </div>
         <div className="nav_contents">
           <NavLink
-            to="/#about"
+            to="/#home"
             className="nav__link"
           >
             HOME
           </NavLink>
           <NavLink
-            to="/#highlights"
+            to="/#about"
             className="nav__link"
           >
             ABOUT
           </NavLink>
           <NavLink
-            to="/#timeline"
+            to="/#rewards"
             className="nav__link"
           >
             REWARDS
           </NavLink>
           <NavLink
-            to="/#partners"
+            to="/#faq"
             className="nav__link"
           >
             FAQ
           </NavLink>
           <NavLink
-            to="/#organizations"
+            to="/#contact"
             className="nav__link"
           >
             CONTACT
@@ -90,46 +90,39 @@ function Navbar() {
           </div>
           <div className="navbar__mobcontents">
             <NavLink
+              to="/#home"
+              onClick={handleDrawerClose}
+              className="navmob__link"
+            >
+              HOME
+            </NavLink>
+            <NavLink
               to="/#about"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
-              About
+              ABOUT
             </NavLink>
             <NavLink
-              to="/#highlights"
+              to="/#rewards"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
-              Highlights
+              REWARDS
             </NavLink>
             <NavLink
-              to="/#timeline"
+              to="/#faq"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
-              Timeline
+              FAQ
             </NavLink>
             <NavLink
-              to="/#partners"
+              to="/#contact"
               onClick={handleDrawerClose}
               className="navmob__link"
             >
-              Participating Organizations
-            </NavLink>
-            <NavLink
-              to="/#organizations"
-              onClick={handleDrawerClose}
-              className="navmob__link"
-            >
-              Organized by
-            </NavLink>
-            <NavLink
-              to="/#team"
-              onClick={handleDrawerClose}
-              className="navmob__link"
-            >
-              Contacts Us
+              CONTACT
             </NavLink>
           </div>
         </div>
