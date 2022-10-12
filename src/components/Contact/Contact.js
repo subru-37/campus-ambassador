@@ -8,7 +8,7 @@ function Contact() {
     { name: "LOREM IPSUM", no: "58463743902" },
   ];
   return (
-    <div className="contact">
+    <div className="contact" id='contact'>
       <div className="line">
         {/* <img src={line} className="line1" alt="" /> */}
         <div className="contact_text">

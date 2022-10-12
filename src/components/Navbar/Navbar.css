@@ -4,7 +4,7 @@
     /* padding: 0 2rem; */
     z-index: 999;
     top: 0;
-    width: 100%;
+    width: 100vw;
     background: #050D18;
   }
   .navbar__main {
@@ -148,9 +148,9 @@
   }
   
   @media screen and (max-width: 600px) {
-    .navbar {
+    /* .navbar {
       padding: 0 1rem;
-    }
+    } */
     .navbar__mob {
       padding: 0 5rem;
       position: relative;

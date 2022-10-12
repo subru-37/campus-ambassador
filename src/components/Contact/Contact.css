@@ -205,6 +205,7 @@
         flex-direction: column;
     }
     .location_map{
+        max-width: 93vw;
         justify-content: center;
     }
 
@@ -278,8 +279,10 @@
       }
       .location_model{
         display: flex;
-        flex-direction: row;
-        min-width: 30rem;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-width: 25rem;
         min-height:25rem;
        
     
