@@ -9,7 +9,7 @@ function Main() {
     {no: '20+',name:'SPONSORS'}
   ]
   return (
-    <div className='main'>
+    <div className='main' id='home'>
       <div className='home'>
         <img src={mascot} className='mascot' alt=''/>
         <div className='intro_text'>
@@ -18,9 +18,9 @@ function Main() {
         </div>
       </div>
       <div className='features'>
-        {data.map(x=>
+        {data.map((x,no)=>
         (
-          <div className='box'>
+          <div className='box' key={no}>
             <h3 className='h3text'> {x.no}</h3>
             <h4 className='h4text'> {x.name}</h4>
           </div>

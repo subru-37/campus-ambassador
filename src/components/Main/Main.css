@@ -52,33 +52,58 @@
 @media only screen and (max-width: 600px){
     .main{
         min-height: 100vh;
-        background: linear-gradient(180deg, #050D18 82.03%, #001C3D 100%);
     }
     .home{
         max-width: 93vw;
         padding-top: 0;
         flex-direction: column;
-        justify-content: space-around;
-        min-height: 85vh;
+        justify-content: center;
+        min-height: 75vh;
     }
     .intro_text{
         font-size: 1.5rem;
         text-align: center;
-    }
-    .h3text{
-        padding: 1rem 0;
-    }
-    .h4text{
-        padding: 1rem 0;
+        padding-top: 2.3rem;
     }
     .mascot{
-        height: 45vh;
+        height: 35vh;
         padding: 0;
     }
     .features{
         flex-direction: column;
     }
     .box{
-        padding:0 2rem;
+        padding:2rem 0;
     }
 }
+@media only screen and (max-width: 1200px) and (max-height: 764px) { 
+
+}
+
+@media only screen and (max-width: 1300px) {
+    .mascot{
+        height: 50vh;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 400px) {
+
+}
+  
