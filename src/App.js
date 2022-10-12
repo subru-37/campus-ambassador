@@ -17,7 +17,7 @@ function App() {
             <Route path="*" element={<Navigate replace to="/" />} />
           </Routes>
           {/* <Contact /> */}
-          <Footer />
+          {/* <Footer /> */}
         </BrowserRouter>
       </Suspense>
     </div>

@@ -56,7 +56,7 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    column-gap: 1em;
+    /* column-gap: 1em; */
   }
 
 .location_text {
@@ -66,7 +66,8 @@
   color: white;
   letter-spacing: 0.065em;
   margin-left: 1em;
-  padding-top: 1.5em;
+  /* margin-top: -3rem; */
+  /* padding-top: 1.5em; */
   }
 
 .location_details{
@@ -87,15 +88,17 @@
 
 .locationMap{
     display: flex;
-    margin-top: 3rem;
+    margin-top: 3.5rem;
+    /* justify-content: center; */
+    align-items: flex-start;
     /* flex-direction: row; */
     
 }
 .location_model{
     display: flex;
     flex-direction: row;
-    min-width: 80vh;
-    min-height: 60vh;
+    width: 60vh;
+    height: 60vh;
     box-shadow: 6px 7px 14px #05eafa5c, 0px -9px 15px #05eafa5c, 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(27, 176, 202, 0.63);
 
     
