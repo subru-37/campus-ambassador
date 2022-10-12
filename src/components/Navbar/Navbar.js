@@ -2,10 +2,10 @@ import React, { useState } from "react"
 import Drawer from "@mui/material/Drawer"
 import { IoMenu, IoClose } from "react-icons/io5"
 import { NavHashLink as NavLink } from "react-router-hash-link"
-import { useScrollPosition } from "../../hooks/useScrollPosition"
+// import { useScrollPosition } from "../../hooks/useScrollPosition"
 
 import "./Navbar.css"
-import logo from '../../assets/excel_logo_png.png';
+import logo from '../../assets/png/excel_logo_png.png';
 
 function Navbar() {
   const [drawer, setDrawer] = useState(false)
@@ -18,16 +18,12 @@ function Navbar() {
     setDrawer(false)
   }
 
-  const scrollPosition = useScrollPosition()
+  // const scrollPosition = useScrollPosition()
 
-  const navStyle = {
-    background: scrollPosition > 200 ? "transparent" : "transparent",//"#04005e"
-    boxShadow:
-      scrollPosition > 200 ? "0px 2px 9px rgba(0, 0, 0, 0.11)" : "none",
-  }
+
 
   return (
-    <div className="navbar" style={navStyle}>
+    <div className="navbar">
       <div className="navbar__main container">
         <div className="nav_logo">
         <NavLink
@@ -56,7 +52,7 @@ function Navbar() {
             REWARDS
           </NavLink>
           <NavLink
-            to="/#faq"
+            to="/#FAQ"
             className="nav__link"
           >
             FAQ
@@ -86,7 +82,7 @@ function Navbar() {
       >
         <div className="navbar__mob">
           <div className="navbar_mob_close" onClick={handleDrawerClose}>
-            <IoClose />
+            <IoClose className="close_nav_icon"/>
           </div>
           <div className="navbar__mobcontents">
             <NavLink
@@ -111,7 +107,7 @@ function Navbar() {
               REWARDS
             </NavLink>
             <NavLink
-              to="/#faq"
+              to="/#FAQ"
               onClick={handleDrawerClose}
               className="navmob__link"
             >

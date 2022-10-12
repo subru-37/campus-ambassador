@@ -4,8 +4,8 @@
     /* padding: 0 2rem; */
     z-index: 999;
     top: 0;
-    width: 100%;
-    /* background: ; */
+    width: 100vw;
+    background: #050D18;
   }
   .navbar__main {
     height: 100%;
@@ -13,7 +13,6 @@
     align-items: center;
     justify-content: space-between;
     box-shadow: 2px 4px 16px #70ffff85;
-    
     width: 100%;
     padding: 1.5rem 3rem;
     
@@ -117,6 +116,10 @@
       font-size: 2rem;
       color: white;
     }
+
+    .close_nav_icon {
+      cursor: pointer;
+    }
   
     .navbar__mobcontents {
       flex: 0.6;
@@ -145,9 +148,9 @@
   }
   
   @media screen and (max-width: 600px) {
-    .navbar {
+    /* .navbar {
       padding: 0 1rem;
-    }
+    } */
     .navbar__mob {
       padding: 0 5rem;
       position: relative;
