@@ -1,5 +1,5 @@
 import React from 'react'
-import { Main, Contact } from '../../components'
+import { Main, Contact, Footer } from '../../components'
 import './HomePage.css'
 // import SimpleSlider from '../../components/ImageSlider/SimpleSlider'
 import SimpleAccordion from '../../components/FAQ/SimpleAccordion'
@@ -10,6 +10,7 @@ function HomePage() {
         {/* <SimpleSlider/> */}
         <SimpleAccordion/>
         <Contact />
+        <Footer />  
     </div>
   )
 }

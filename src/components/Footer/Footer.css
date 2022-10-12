@@ -1,3 +1,49 @@
 .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.5rem;
+    justify-content: center;
+}
 
+.footer_head {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_logos {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    /* gap: 2rem; */
+}
+
+.social_media {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-right: 2rem;
+}
+
+.soc_med_icon {
+    /* border: 1.66667px solid #FFFFFF; */
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px #23D9D9; */
+    color: #70ffff85;
+    font-size: 1.6rem;
+}
+
+.footer_btm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-family: var(--primary-font);
+    color: #FFFFFF;
+    gap: 0.2rem;
+}
+
+.heart_icon {
+    color: #70ffff85;
 }
