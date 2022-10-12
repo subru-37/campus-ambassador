@@ -9,14 +9,14 @@
     justify-content: center;
     /* background: linear-gradient(180deg, #050D18 82.03%, #001C3D 100%); */
     /* height: 100vh; */
-    gap: 3rem;
+    gap: 2rem;
     padding: 3rem;
 }
 
 .heading{
     margin-top: 2rem;
     font-family: var(--primary-font);
-    text-shadow: 0px 4px 27px #05eafac0;
+    text-shadow: 0px 4px 27px #05eafaa2;
     font-size: 2.7rem;
     color: white;
     letter-spacing: 0.065em;

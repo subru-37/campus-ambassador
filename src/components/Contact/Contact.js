@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import line from "../../assets/Line1.svg";
+// import line from "../../assets/Line1.svg";
 
 function Contact() {
   const contact = [
@@ -10,30 +10,30 @@ function Contact() {
   return (
     <div className="contact">
       <div className="line">
-        <img src={line} className="line1" alt="" />
+        {/* <img src={line} className="line1" alt="" /> */}
         <div className="contact_text">
           <h3>CONTACT</h3>
         </div>
-        <img src={line} className="line2" alt="" />
+        {/* <img src={line} className="line2" alt="" /> */}
       </div>
       <div className="contactNumber">
         {contact.map((x) => (
-          <div className="box">
-            <h5 className="h3text"> {x.name}</h5>
-            <h5 className="h4text"> {x.no}</h5>
+          <div className="contact_box">
+            <h5> {x.name}</h5>
+            <h5> {x.no}</h5>
           </div>
         ))}
       </div>
       <div className="locationMap">
-      <div className="location">
-        <div className="location_text">
-          <h3>LOCATION</h3>
-        </div>
-        <div className="location_details">
-          <h5 className="h4text">MODEL ENGINEERING COLLEGE</h5>
-          <h5 className="h4text">THRIKKAKARA</h5>
-          <h5 className="h4text">ERNAKULAM</h5>
-        </div>
+        <div className="location">
+          <div className="location_text">
+            <h3>LOCATION</h3>
+          </div>
+          <div className="location_details">
+            <h5>MODEL ENGINEERING COLLEGE</h5>
+            <h5>THRIKKAKARA</h5>
+            <h5>ERNAKULAM</h5>
+          </div>
       </div>
       <div className="location_map">
         <iframe 
