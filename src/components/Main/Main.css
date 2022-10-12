@@ -1,9 +1,11 @@
-.main{
-    min-height: 100vh;
+.home_sec{
+    height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    padding: 1.5rem;
+    /* gap: 3rem; */
 }
 
 .home{
@@ -11,11 +13,13 @@
     justify-content: space-around;
     align-items: center;
     padding-top: 80px;
-    min-width: 80vw;
+    width: 100%;
+    /* min-width: 80vw; */
+    /* height: 100vh; */
 }
 .intro_text{
     font-family: var(--primary-font);
-    text-shadow: 0px 4px 27px #05E8FA;
+    text-shadow: 0px 4px 27px #05eafaa2;
     font-size: 2rem;
     color: white;
     letter-spacing: 0.065em;
@@ -27,27 +31,29 @@
     width:auto;
     object-position: 50% 50%;
 }
-.box{
+.home_highlights{
     display: flex;
-    justify-content:center;
-    align-items: center;
     flex-direction: column;
+    justify-content:center;
+    /* align-items: center; */
+    /* flex-direction: column; */
 }
 .features{
+    width: 80%;
     display: flex;
-    justify-content: space-around;
-    min-width: 80vw;
-    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    /* align-items: center; */
     flex-direction: row;
     font-family: var(--primary-font);
-    text-shadow: 0px 4px 27px #05E8FA;
+    /* text-shadow: 0px 4px 27px #05E8FA; */
     color: white;
 }
-.h3text{
-    font-size: 2rem;
+.home_highlights h3{
+    font-size: 2.5rem;
 }
-.h4text{
-    font-size: 1.5rem;
+.home_highlights h4{
+    font-size: 1.3rem;
 }
 @media only screen and (max-width: 600px){
     .main{

@@ -3,7 +3,7 @@
   display: flex;
   align-items: left;
   flex-direction: column;
-  background: linear-gradient(180deg, #050d18 82.03%, #001c3d 100%);
+  /* background: linear-gradient(180deg, #050d18 82.03%, #001c3d 100%); */
 }
 
 .line {
