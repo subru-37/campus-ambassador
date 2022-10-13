@@ -1,38 +1,51 @@
 import React from 'react'
 import './Rewards.css'
-import {createSvgIcon } from '@mui/material';
-import RewardItem from './RewardItem';
 
-export default function Rewards() {
-
-  const Ray1Icon = createSvgIcon(
-    <path d="M4,9C5.31,9 6.42,9.83 6.83,11H22V13H6.83C6.42,14.17 5.31,15 4,15A3,3 0 0,1 1,12A3,3 0 0,1 4,9Z" />,
-    'Ray1',
-  ); 
-  const Ray2Icon = createSvgIcon(
-    <path d="M20,9C18.69,9 17.58,9.83 17.17,11H2V13H17.17C17.58,14.17 18.69,15 20,15A3,3 0 0,0 23,12A3,3 0 0,0 20,9Z" />,
-    'Ray2',
-  );
-  
+function Rewards() {
   return (
-    <div className="rewards">
-      <div className="headline"> 
-        <div className="left-rays">
-          <Ray1Icon className= "svgrays"/>
-          <Ray1Icon className= "svgrays"/>
+    <div className='rewards'>
+      <div className='rewards_head'>
+        <div className='abstract_line'>
+          <div className='rewards_line '/>
+          <div className='rewards_line lt_btm'/>
         </div>
-        <h1 className="rewards-text" sx={{ 
-          textAlign: 'center'}} >PERKS AND REWARDS </h1> 
-        <div className="right-rays" >
-          <Ray2Icon className= "svgrays" /> 
-          <Ray2Icon className= "svgrays" />
+        <h1>REWARDS AND PERKS</h1>
+        <div className='abstract_line'>
+          <div className='rewards_line '/>
+          <div className='rewards_line rt_btm'/>
         </div>
-      </div>    
-      <div className='items'>
-        <RewardItem />
-        <RewardItem />
-        <RewardItem />
-      </div> 
+      </div>
+      <div className='rewards_mid'>
+        <div className='reward_info'>
+          <div className='reward_circle'>
+            <h2>1</h2>
+          </div>
+          <div className='rewards_cont'>
+            <h1>Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam enim ex, iaculis vel placerat ut, consectetur lacinia risus</p>
+          </div>
+        </div>
+        <div className='reward_info'>
+          <div className='reward_circle'>
+            <h2>2</h2>
+          </div>
+          <div className='rewards_cont'>
+            <h1>Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam enim ex, iaculis vel placerat ut, consectetur lacinia risus</p>
+          </div>
+        </div>
+        <div className='reward_info'>
+          <div className='reward_circle'>
+            <h2>3</h2>
+          </div>
+          <div className='rewards_cont'>
+            <h1>Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam enim ex, iaculis vel placerat ut, consectetur lacinia risus</p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
+
+export default Rewards
