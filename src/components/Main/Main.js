@@ -14,9 +14,12 @@ function Main() {
     <div className='home_sec' id='home'>
       <div className='home'>
         <img src={mascot} className='mascot' alt=''/>
-        <div className='intro_text'>
-          <h1 className='h1text'>EXCEL MEC</h1>
-          <h3 className='h3text'>CAMPUS AMBASSADOR</h3>
+        <div className='home_title'>
+          <div className='intro_text'>
+            <h1>EXCEL MEC</h1>
+            <h2>CAMPUS AMBASSADOR</h2>
+          </div>
+          <button className='reg_btn'>REGISTER</button>
         </div>
       </div>
       <div className='features'>
