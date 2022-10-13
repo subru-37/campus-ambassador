@@ -3,7 +3,7 @@
   flex-direction: column;
   height: 85vh;
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: center;
   padding: 3rem;
   gap: 3rem;
 }
@@ -51,6 +51,7 @@
 
 .rewards_mid {
   display: flex;
+  width: 80%;
   margin-top: 3rem;
   justify-content: space-between;
   align-items: center;
