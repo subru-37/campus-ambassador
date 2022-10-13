@@ -15,8 +15,8 @@ function Main() {
       <div className='home'>
         <img src={mascot} className='mascot' alt=''/>
         <div className='intro_text'>
-          <h1>EXCEL MEC</h1>
-          <h2>CAMPUS AMBASSADOR</h2>
+          <h1 className='h1text'>EXCEL MEC</h1>
+          <h3 className='h3text'>CAMPUS AMBASSADOR</h3>
         </div>
       </div>
       <div className='features'>
