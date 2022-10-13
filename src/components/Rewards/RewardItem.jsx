@@ -1,5 +1,4 @@
 import React,{useState} from "react";
-import {FaRegPlusSquare } from "react-icons/fa"; 
 import { Typography } from '@mui/material';
 import './Rewards.css'
 
