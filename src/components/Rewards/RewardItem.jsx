@@ -1,5 +1,4 @@
-import React,{useState} from "react";
-import { Typography } from '@mui/material';
+import React from "react";
 import './Rewards.css'
 
 export default function RewardItem(){
