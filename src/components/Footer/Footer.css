@@ -46,3 +46,8 @@
 .heart_icon {
     color: #70ffff85;
 }
+@media only screen and (max-width: 800px){
+    .footer_logos{
+        flex-direction: column;
+    }
+}
