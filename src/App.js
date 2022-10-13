@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react'
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import './App.css';
-import { Navbar, Footer, Loader } from "./components";
+import { Navbar, Rewards, Footer, Loader } from "./components";
 // import Contact from './components/Contact/Contact';
 import { HomePage } from './pages'
 
