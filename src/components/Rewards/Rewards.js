@@ -1,7 +1,6 @@
 import React from 'react'
-import Grid from '@mui/material/Grid';
 import './Rewards.css'
-import { SvgIcon,createSvgIcon } from '@mui/material';
+import {createSvgIcon } from '@mui/material';
 import RewardItem from './RewardItem';
 
 export default function Rewards() {
