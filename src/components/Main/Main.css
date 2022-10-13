@@ -17,12 +17,41 @@
     /* min-width: 80vw; */
     /* height: 100vh; */
 }
+
+.home_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.reg_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-family: var(--primary-font);
+    background: linear-gradient(180deg, #000000 6.01%, #05eafa22 82.06%, #1cacd038 100%);
+    box-shadow: 0px 4px 53px #05eafa1d;
+    color: white;
+    font-family: var(--primary-font);
+    font-size: 1.2rem;
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+}
+
 .intro_text{
+    display: flex;
+    flex-direction: column;
     font-family: var(--primary-font);
     text-shadow: 0px 4px 27px #05eafaa2;
     font-size: 2rem;
     color: white;
     letter-spacing: 0.065em;
+    justify-content: center;
+    align-items: center;
 }
 .mascot{
     z-index: 50;
