@@ -76,7 +76,7 @@ function Navbar() {
         open={drawer}
         onClose={handleDrawerClose}
         sx={{
-          borderRadius: 20,
+          borderRadius: "20",
           width: "90%",
         }}
       >
