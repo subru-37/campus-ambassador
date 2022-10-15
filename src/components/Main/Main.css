@@ -32,9 +32,8 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    font-family: var(--primary-font);
-    background: linear-gradient(180deg, #000000 6.01%, #05eafa22 82.06%, #1cacd038 100%);
-    box-shadow: 0px 4px 53px #05eafa1d;
+    /* background: linear-gradient(180deg, #000000 6.01%, #05eafa22 82.06%, #1cacd038 100%); */
+    box-shadow: 0px 4px 53px #05eafa5a;
     color: white;
     font-family: var(--primary-font);
     font-size: 1.2rem;
@@ -79,12 +78,12 @@
 }
 .home_highlights h3{
     font-size: 2.5rem;
-    text-shadow: 0px 4px 27px #05eafaa2;
+    text-shadow: 0px 4px 27px #05eafa5a;
 
 }
 .home_highlights h4{
     font-size: 1.3rem;
-    text-shadow: 0px 4px 27px #05eafaa2;
+    text-shadow: 0px 4px 27px #05eafa5a;
 
 }
 .intro_text h1{
@@ -113,10 +112,20 @@
         width:50vw;
     }
     .intro_text h1{
-        font-size: 10vw;
+        font-size: 9vw;
     }
     .intro_text h2{
-        font-size: 4vw;
+        font-size: 3vw;
+    }
+    .home_title{
+        padding-bottom: 2rem;
+    }
+    .home_highlights h3{
+        font-size: 2rem;
+    
+    }
+    .home_highlights h4{
+        font-size: 1rem;
     }
 }
 
@@ -145,6 +154,7 @@
         flex-direction: column;
         align-items: center;
         min-width: 93vw;
+        min-height: 35vh;
     }
     .box{
         padding:2rem 0;
@@ -153,10 +163,10 @@
         align-items: center;
     }
     .intro_text h1{
-        font-size: 13vw;
+        font-size: 11vw;
     }
     .intro_text h2{
-        font-size: 5vw;
+        font-size: 4vw;
     }
     .home_title{
         padding-bottom: 2rem;
@@ -165,6 +175,10 @@
 @media only screen and (max-width: 600px){
     .main{
         min-height: 100vh;
+    }
+    .reg_btn{
+        width: 17vw;
+        font-size: 3vw;
     }
     .home{
         padding-top: 80px;
@@ -235,10 +249,20 @@
         align-items: center;
     }
     .intro_text h1{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .intro_text h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+    .reg_btn{
+        width: 23vw;
+        font-size: 4vw;
+    }
+    .home_highlights h3{
+        font-size: 1.7rem;
+    }
+    .home_highlights h4{
+        font-size: 0.7rem;
     }
 }
   

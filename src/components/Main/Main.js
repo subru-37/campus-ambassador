@@ -23,7 +23,7 @@ function Main() {
             <h1>EXCEL MEC</h1>
             <h2>CAMPUS AMBASSADOR</h2>
           </div>
-          <button className='reg_btn' style={styles1} onMouseEnter={()=>(setHoverChange(!onHover))} onMouseOut={()=>(setHoverChange(!onHover))}>REGISTER</button>
+          <button className='reg_btn' onClick={()=>(setHoverChange(!onHover))} style={styles1} onMouseEnter={()=>(setHoverChange(!onHover))} onMouseOut={()=>(setHoverChange(!onHover))}>REGISTER</button>
         </div>
       </div>
       <div className='features'>
