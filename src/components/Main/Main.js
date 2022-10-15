@@ -28,15 +28,15 @@ function Main() {
       </div>
       <div className='features'>
           <div className='home_highlights'>
-            <h3><CountUp end={10} duration={3} enableScrollSpy={true} preserveValue={true}/>+</h3>
+            <h3><CountUp end={10} duration={2} enableScrollSpy={true} preserveValue={true}/>+</h3>
             <h4>WORKSHOPS </h4>
           </div>
           <div className='home_highlights'>
-            <h3><CountUp end={5} duration={3} enableScrollSpy={true} preserveValue={true}/>+</h3>
+            <h3><CountUp end={5} duration={2} enableScrollSpy={true} preserveValue={true}/>+</h3>
             <h4>LECTURES </h4>
           </div>
           <div className='home_highlights'>
-            <h3><CountUp end={20} duration={3} enableScrollSpy={true} preserveValue={true}/>+</h3>
+            <h3><CountUp end={20} duration={2} enableScrollSpy={true} preserveValue={true}/>+</h3>
             <h4>SPONSORS </h4>
           </div>
       </div>

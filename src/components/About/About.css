@@ -12,7 +12,8 @@
 }
 
 .about_head {
-    width: 100%;
+    width: 80%;
+    margin: 1rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,9 +32,31 @@
 
 .about_head p {
     font-family: var(--primary-font);
-    text-shadow: 0px 4px 27px #05eafaa2;
     font-size: 1.3rem;
     color: white; 
     text-align: center;
     font-weight: 600;
+}
+
+.gallery_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.about_slider {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.slider_img {
+    width: 80%;
+    margin: auto;
+}
+
+.achSlider__prev, .achSlider__next {
+    font-size: 2rem;
+    color: #ffffff;
+    cursor: pointer;
 }

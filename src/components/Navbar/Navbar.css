@@ -4,18 +4,16 @@
     /* padding: 0 2rem; */
     z-index: 999;
     top: 0;
-    width: 100vw;
-    background: #050D18;
+    width: 100%;
+    transition: ease 0.2s;
   }
   .navbar__main {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 2px 4px 16px #05eafa5a;
     width: 100%;
-    padding: 1.5rem 3rem;
-    
+    padding: 1.5rem 3rem;  
   }
   
   .nav_logo img {

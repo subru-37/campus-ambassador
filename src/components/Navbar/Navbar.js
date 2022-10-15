@@ -2,13 +2,14 @@ import React, { useState } from "react"
 import Drawer from "@mui/material/Drawer"
 import { IoMenu, IoClose } from "react-icons/io5"
 import { NavHashLink as NavLink } from "react-router-hash-link"
-// import { useScrollPosition } from "../../hooks/useScrollPosition"
+import { useScrollPosition } from "../../hooks/useScrollPosition"
 
 import "./Navbar.css"
 import logo from '../../assets/png/excel_logo_png.png';
 
 function Navbar() {
   const [drawer, setDrawer] = useState(false)
+  const scrollPosition = useScrollPosition()
 
   const handleDrawerOpen = () => {
     setDrawer(true)
@@ -18,49 +19,35 @@ function Navbar() {
     setDrawer(false)
   }
 
-  // const scrollPosition = useScrollPosition()
 
-
+  const navStyle = {
+    background: scrollPosition > 200 ? "#050D18" : "transparent",
+    boxShadow:
+      scrollPosition > 200 ? "2px 4px 16px #05eafa5a" : "none",
+    }
 
   return (
-    <div className="navbar">
+    <div className="navbar" style={navStyle}>
       <div className="navbar__main container">
         <div className="nav_logo">
-        <NavLink
-            to="/#"
-          >
+        <NavLink to="/#">
           <img src={logo} alt="" />
           </NavLink>
         </div>
         <div className="nav_contents">
-          <NavLink
-            to="/#home"
-            className="nav__link"
-          >
+          <NavLink to="/#home" className="nav__link">
             HOME
           </NavLink>
-          <NavLink
-            to="/#about"
-            className="nav__link"
-          >
+          <NavLink to="/#about" className="nav__link">
             ABOUT
           </NavLink>
-          <NavLink
-            to="/#rewards"
-            className="nav__link"
-          >
+          <NavLink to="/#rewards" className="nav__link">
             REWARDS
           </NavLink>
-          <NavLink
-            to="/#FAQ"
-            className="nav__link"
-          >
+          <NavLink to="/#faq" className="nav__link">
             FAQ
           </NavLink>
-          <NavLink
-            to="/#contact"
-            className="nav__link"
-          >
+          <NavLink to="/#contact" className="nav__link">
             CONTACT
           </NavLink>
         </div>
@@ -107,7 +94,7 @@ function Navbar() {
               REWARDS
             </NavLink>
             <NavLink
-              to="/#FAQ"
+              to="/#faq"
               onClick={handleDrawerClose}
               className="navmob__link"
             >

@@ -1,14 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Montserrat:ital,wght@0,400;1,300&display=swap');
-
-
 
 .faq_section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background: linear-gradient(180deg, #050D18 82.03%, #001C3D 100%); */
-    /* height: 100vh; */
     gap: 2rem;
     padding: 2.5rem;
 }
@@ -25,7 +20,6 @@
 }
 
 .faq{
-    /* max-width: 60vw; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,18 +34,6 @@
 .answer{
     font-family: var(--primary-font);
     color: white;
-}
-
-.faq_accor {
-    display: flex;
-    flex-direction: column;
-    /* border: 1px solid #FFFFFF; */
-    box-shadow: 4px #05E8FA;
-    filter: drop-shadow(0px 4px 4px rgb(24, 75, 100)) drop-shadow(21px 8px 71px #05E8FA);
-    border-radius: 60px;
-    padding: 0.2rem;
-    justify-content: space-between;
-
 }
 
 .expand_icon {

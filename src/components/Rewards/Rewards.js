@@ -3,7 +3,7 @@ import './Rewards.css'
 
 function Rewards() {
   return (
-    <div className='rewards'>
+    <div className='rewards' id='rewards'>
       <div className='rewards_head'>
         <div className='abstract_line'>
           <div className='rewards_line '/>
