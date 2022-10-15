@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Montserrat:ital,wght@0,400;1,300&display=swap');
 .home_sec{
     min-height: 100vh;
     display: flex;
@@ -12,24 +13,50 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 80px;
-    width: 100%;
+    padding-top: 3rem;
+    width: 90%;
     /* min-width: 80vw; */
     /* height: 100vh; */
 }
-.intro_text{
+
+.home_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.reg_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    /* background: linear-gradient(180deg, #000000 6.01%, #05eafa22 82.06%, #1cacd038 100%); */
+    box-shadow: 0px 4px 53px #05eafa5a;
+    color: white;
     font-family: var(--primary-font);
-    text-shadow: 0px 4px 27px #05eafaa2;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    width: 30%;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+}
+
+.intro_text{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--primary-font);
+    text-shadow: 0px 4px 27px #05eafa5a;
     color: white;
     letter-spacing: 0.065em;
+    justify-content: space-around;
+    align-items: center;
 }
 .mascot{
     z-index: 50;
-    height: 60vh;
+    height: 55vh;
     padding: 2rem 0;
     width:auto;
-    object-position: 50% 50%;
 }
 .home_highlights{
     display: flex;
@@ -51,21 +78,64 @@
 }
 .home_highlights h3{
     font-size: 2.5rem;
-    text-shadow: 0px 4px 27px #05eafaa2;
+    text-shadow: 0px 4px 27px #05eafa5a;
 
 }
 .home_highlights h4{
     font-size: 1.3rem;
-    text-shadow: 0px 4px 27px #05eafaa2;
+    text-shadow: 0px 4px 27px #05eafa5a;
 
 }
-@media only screen and (max-width: 600px){
+.intro_text h1{
+    font-size: 6rem;
+}
+.intro_text h2{
+    font-size: 2rem;
+}
+/* @media only screen and (max-width: 1200px) and (max-height: 764px) { 
+} */
+
+@media only screen and (max-width: 1081px) {
+    .intro_text h1{
+        font-size: 8vw;
+    }
+    .intro_text h2{
+        font-size: 3vw;
+    }
+}
+@media only screen and (max-width: 980px) {
+    .home{
+        flex-direction: column;
+    }
+    .mascot{
+        height: 37vh;
+        width:50vw;
+    }
+    .intro_text h1{
+        font-size: 9vw;
+    }
+    .intro_text h2{
+        font-size: 3vw;
+    }
+    .home_title{
+        padding-bottom: 2rem;
+    }
+    .home_highlights h3{
+        font-size: 2rem;
+    
+    }
+    .home_highlights h4{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
     .main{
         min-height: 100vh;
     }
     .home{
+        padding-top: 80px;
         max-width: 93vw;
-        padding-top: 0;
         flex-direction: column;
         justify-content: center;
         min-height: 75vh;
@@ -77,7 +147,54 @@
     }
     .mascot{
         height: 35vh;
-        width:95vw;
+        width:45vw;
+        padding: 0;
+    }
+    .features{
+        flex-direction: column;
+        align-items: center;
+        min-width: 93vw;
+        min-height: 35vh;
+    }
+    .box{
+        padding:2rem 0;
+    }
+    .home_highlights{
+        align-items: center;
+    }
+    .intro_text h1{
+        font-size: 11vw;
+    }
+    .intro_text h2{
+        font-size: 4vw;
+    }
+    .home_title{
+        padding-bottom: 2rem;
+    }
+}
+@media only screen and (max-width: 600px){
+    .main{
+        min-height: 100vh;
+    }
+    .reg_btn{
+        width: 17vw;
+        font-size: 3vw;
+    }
+    .home{
+        padding-top: 80px;
+        max-width: 93vw;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 75vh;
+    }
+    .intro_text{
+        font-size: 1.5rem;
+        text-align: center;
+        padding-top: 2.3rem;
+    }
+    .mascot{
+        height: 30vh;
+        width:85vw;
         padding: 0;
     }
     .features{
@@ -88,35 +205,64 @@
     .box{
         padding:2rem 0;
     }
-}
-@media only screen and (max-width: 1200px) and (max-height: 764px) { 
-
-}
-
-@media only screen and (max-width: 1300px) {
-    .mascot{
-        height: 50vh;
-        padding: 0;
+    .home_highlights{
+        align-items: center;
+    }
+    .intro_text h1{
+        font-size: 13.5vw;
+    }
+    .intro_text h2{
+        font-size: 7vw;
     }
 }
 
-@media only screen and (max-width: 1200px) {
-
-}
-
-@media only screen and (max-width: 1100px) {
-
-}
-
-@media screen and (max-width: 992px) {
-
-}
-
-@media screen and (max-width: 800px) {
-
-}
-
 @media screen and (max-width: 400px) {
-
+    .main{
+        min-height: 100vh;
+    }
+    .home{
+        max-width: 93vw;
+        padding-top: 50px;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 70vh;
+    }
+    .intro_text{
+        font-size: 1.5rem;
+        text-align: center;
+        padding-top: 2.3rem;
+    }
+    .mascot{
+        height: 30vh;
+        width:93vw;
+        padding: 0;
+    }
+    .features{
+        flex-direction: column;
+        align-items: center;
+        min-width: 93vw;
+    }
+    .box{
+        padding:2rem 0;
+    }
+    .home_highlights{
+        align-items: center;
+    }
+    .intro_text h1{
+        font-size: 3rem;
+    }
+    .intro_text h2{
+        font-size: 1.5rem;
+    }
+    .reg_btn{
+        width: 23vw;
+        font-size: 4vw;
+    }
+    .home_highlights h3{
+        font-size: 1.7rem;
+    }
+    .home_highlights h4{
+        font-size: 0.7rem;
+    }
 }
   

@@ -1,8 +1,8 @@
 .rewards {
   display: flex;
   flex-direction: column;
-  height: 85vh;
-  justify-content: space-between;
+  min-height: 80vh;
+  justify-content: space-around;
   align-items: center;
   padding: 3rem;
   gap: 3rem;
@@ -71,6 +71,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 1rem;
 }
 
@@ -248,3 +249,4 @@
     font-size: 0.9rem;
   }
 }
+

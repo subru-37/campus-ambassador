@@ -1,31 +1,64 @@
-import React from 'react'
-import mec_logo from './../../assets/mec_logo.svg'
-import excel_logo from './../../assets/excellogowithtext.svg'
-import { AiOutlineInstagram, AiFillHeart, AiFillFacebook } from "react-icons/ai";
-import { BsLinkedin } from "react-icons/bs";
-import { FiTwitter } from "react-icons/fi";
+import React from "react"
+import { FiFacebook, FiLinkedin, FiInstagram, FiTwitter } from "react-icons/fi"
+import { FaHeart } from "react-icons/fa"
 
-import './Footer.css'
-
-function Footer() {
+import "./Footer.css"
+import excel_logo from "../../assets/excellogowithtext.svg"
+import mec_logo from "../../assets/mec_logo.svg"
+const Footer = () => {
   return (
-    <div className='footer'>
-      <div className='footer_head'>
-        <div className='footer_logos'>
-          <img src={mec_logo} alt=' ' className='logo_img'/>    
-          <img src={excel_logo} alt=' ' className='logo_img'/>    
+    <div id="footer">
+      <div className="container footer__main">
+        <div className="footer-social">
+          <div className="footer-social-college">
+            <a href="https://www.mec.ac.in/" target="_blank" rel="noopener noreferrer">
+              <img src={mec_logo} className="mec__logo" alt="mec_logo" />
+            </a>
+          </div>
+          
+          <div className="footer-social-socialmedia">
+            <a href="https://www.facebook.com/excelmec" target="_blank" rel="noopener noreferrer">
+              <FiFacebook
+                style={{ border: "none" }}
+                className="contact_social_icon"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/excelmec/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FiInstagram className="contact_social_icon" />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/excelmec/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FiLinkedin className="contact_social_icon" />
+            </a>
+            <a
+              href="https://twitter.com/excelmec"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FiTwitter className="contact_social_icon" />
+            </a>
+          </div>
+
+          <div className="footer-social-event">
+            <a href="https://excelmec.org/" target="_blank" rel="noopener noreferrer">
+              <img src={excel_logo} className="excel__logo" alt="excel_logo" />
+            </a>
+          </div>
         </div>
-        <div className='social_media'>
-          <AiFillFacebook className='soc_med_icon'/>
-          <AiOutlineInstagram className='soc_med_icon'/>
-          <BsLinkedin className='soc_med_icon'/>
-          <FiTwitter className='soc_med_icon'/>
+        <div className="footer-madewith">
+          Made with{" "}
+          <span>
+            <FaHeart className="footer_heart" />
+          </span>{" "}
+          Excel 2022
         </div>
-      </div>
-      <div className='footer_btm'>
-        <p>Made with</p>
-        <AiFillHeart className='heart_icon'/>
-        <p>Excel 2022</p>
       </div>
     </div>
   )
