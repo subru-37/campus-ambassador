@@ -139,9 +139,9 @@
     height: 170px;
     width: 170px;
   }
-  .reward_circle h2 {
+  /*.reward_circle h2 {
     font-size: 3.8rem;
-  }
+  } */
   .reward_info {
     width: 22.5%;
   }
@@ -179,9 +179,9 @@
     height: 170px;
     width: 170px;
   }
-  .reward_circle h2 {
+   /*.reward_circle h2 {
     font-size: 3.6rem;
-  }
+  } */
   .rewards_cont h1 {
     font-size: 1.7rem;
   }
@@ -208,9 +208,9 @@
   height: 160px;
   width: 160px;
 }
-.reward_circle h2{
+/*.reward_circle h2{
   font-size: 3.6rem;
-}
+} */
 .rewards_cont h1{
   font-size: 2.4rem; 
   padding-top: 1.4rem;
@@ -233,9 +233,9 @@
     font-size: 2rem;
     line-height: 2.2rem;
   }
-  .reward_circle h2 {
+  /*.reward_circle h2 {
     font-size: 3.8rem;
-  }
+  } */
   .reward_info {
     width: 70%;
     padding-bottom: 3.8rem;
