@@ -37,7 +37,7 @@ function About() {
   return (
     <div className='about' id='about'>
         <div className='about_head'>
-            <h1>WHAT IS EXCEL ?</h1>
+            <h1>WHAT IS <span class="blue">  EXCEL</span> ?</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam enim ex, iaculis vel placerat ut, consectetur lacinia risusLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam enim ex, iaculis vel placerat ut, consectetur lacinia risusLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam enim ex, iaculis vel placerat ut, consectetur lacinia risus</p>
         </div>
         <div className='gallery_container'>
