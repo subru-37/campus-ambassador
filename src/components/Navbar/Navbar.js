@@ -21,9 +21,9 @@ function Navbar() {
 
 
   const navStyle = {
-    background: scrollPosition > 200 ? "#050D18" : "transparent",
+    background: scrollPosition > 90 ? "#050D18" : "transparent",
     boxShadow:
-      scrollPosition > 200 ? "2px 4px 16px #05eafa5a" : "none",
+      scrollPosition > 90 ? "2px 4px 16px #05eafa5a" : "none",
     }
 
   return (

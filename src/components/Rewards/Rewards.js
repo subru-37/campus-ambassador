@@ -1,19 +1,17 @@
 import React from 'react'
+
+import lines from './../../assets/heading_lines.svg'
+import line_rt from './../../assets/heading_lines_rt.svg'
 import './Rewards.css'
+
 
 function Rewards() {
   return (
     <div className='rewards' id='rewards'>
       <div className='rewards_head'>
-        <div className='abstract_line'>
-          <div className='rewards_line '/>
-          <div className='rewards_line lt_btm'/>
-        </div>
-        <h1>REWARDS AND PERKS</h1>
-        <div className='abstract_line'>
-          <div className='rewards_line '/>
-          <div className='rewards_line rt_btm'/>
-        </div>
+        <img src={lines} alt=' 'className='head_lines'/>             
+        <h1><span class='blue'>REWARDS</span> AND <span class='blue'>PERKS</span></h1>
+        <img src={line_rt} alt=' 'className='head_lines'/>            
       </div>
       <div className='rewards_mid'>
         <div className='reward_info'>
@@ -25,7 +23,7 @@ function Rewards() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam enim ex, iaculis vel placerat ut, consectetur lacinia risus</p>
           </div>
         </div>
-        <div className='reward_info'>
+        <div className='reward_info reward_two'>
           <div className='reward_circle'>
             <h2>2</h2>
           </div>

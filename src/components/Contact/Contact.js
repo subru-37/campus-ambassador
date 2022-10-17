@@ -1,46 +1,99 @@
-import React from "react";
-import "./Contact.css";
-// import line from "../../assets/Line1.svg";
+import React from 'react'
+import lines from './../../assets/heading_lines.svg'
+import line_rt from './../../assets/heading_lines_rt.svg'
+import { MdEmail } from "react-icons/md";
+import { BsLinkedin } from "react-icons/bs";
+
+import './Contact.css'
 
 function Contact() {
-  const contact = [
-    { name: "LOREM IPSUM", no: "93949448635" },
-    { name: "LOREM IPSUM", no: "58463743902" },
-  ];
   return (
-    <div className="contact" id='contact'>
-      <div className="line">
-        {/* <img src={line} className="line1" alt="" /> */}
-        <div className="contact_text">
-          <h3>CONTACT</h3>
+    <div className='contact'>
+      <div className='contact_title'>
+        <img src={lines} alt=' ' className='contact_lines'/>             
+        <h1>CONTACT</h1>
+        <img src={line_rt} alt=' ' className='contact_lines'/>            
+      </div>
+      <div className='contact_list'>
+        <div className='contact_info'>
+          <h1>Nazreen K Basheer</h1>
+          <h2>+91 9542364875</h2>
+          <div className='contact_soc'>
+            <div className='contact_circle'>
+              <a href="https://www.facebook.com/excelmec" target="_blank" rel="noopener noreferrer">
+                <MdEmail
+                  style={{ border: "none" }}
+                  className="contact_icon"
+                  />
+              </a>
+            </div>
+            <div className='contact_circle'>
+              <a href="https://www.facebook.com/excelmec" target="_blank" rel="noopener noreferrer">
+                <BsLinkedin
+                  style={{ border: "none" }}
+                  className="contact_icon"
+                  />
+              </a>
+            </div>
+          </div>
         </div>
-        {/* <img src={line} className="line2" alt="" /> */}
-      </div>
-      <div className="contactNumber">
-        {contact.map((x) => (
-          <div className="contact_box" key={x.no}>
-            <h5> {x.name}</h5>
-            <h5> {x.no}</h5>
+        <div className='contact_info'>
+          <h1>Nazreen K Basheer</h1>
+          <h2>+91 9542364875</h2>
+          <div className='contact_soc'>
+            <div className='contact_circle'>
+              <a href="https://www.facebook.com/excelmec" target="_blank" rel="noopener noreferrer">
+                <MdEmail
+                  style={{ border: "none" }}
+                  className="contact_icon"
+                  />
+              </a>
+            </div>
+            <div className='contact_circle'>
+              <a href="https://www.facebook.com/excelmec" target="_blank" rel="noopener noreferrer">
+                <BsLinkedin
+                  style={{ border: "none" }}
+                  className="contact_icon"
+                  />
+              </a>
+            </div>
           </div>
-        ))}
-      </div>
-      <div className="locationMap">
-        <div className="location">
-          <div className="location_text">
-            <h3>LOCATION</h3>
+        </div>
+        <div className='contact_info'>
+          <h1>Nazreen K Basheer</h1>
+          <h2>+91 9542364875</h2>
+          <div className='contact_soc'>
+            <div className='contact_circle'>
+              <a href="https://www.facebook.com/excelmec" target="_blank" rel="noopener noreferrer">
+                <MdEmail
+                  style={{ border: "none" }}
+                  className="contact_icon"
+                  />
+              </a>
+            </div>
+            <div className='contact_circle'>
+              <a href="https://www.facebook.com/excelmec" target="_blank" rel="noopener noreferrer">
+                <BsLinkedin
+                  style={{ border: "none" }}
+                  className="contact_icon"
+                  />
+              </a>
+            </div>
           </div>
-          <div className="location_details">
-            <h5>MODEL ENGINEERING COLLEGE</h5>
-            <h5>THRIKKAKARA</h5>
-            <h5>ERNAKULAM</h5>
-          </div>
+        </div>
       </div>
-      <div className="location_map">
+      <div className='location'>
+        <div className='location_lt'>
+          <h1>LOCATION</h1>
+          <p>MODEL ENGINEERING COLLEGE,<br/> THRIKKAKARA,<br/> ERNAKULAM </p>
+        </div>
+        <div className='location_map'>
 
+        </div>
       </div>
-      </div>
+    
     </div>
-  );
+  )
 }
 
-export default Contact;
+export default Contact
