@@ -207,16 +207,6 @@
   .reward_info {
     width: 50%;
   }
-
-
-  /* .rewards_cont h1 {
-    font-size: 1.2rem;
-  
-  }
-  
-  .rewards_cont p { 
-    font-size: 0.7rem;
-  } */
 }
 
 @media screen and (max-width: 400px) {

@@ -4,6 +4,8 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import lines from './../../assets/heading_lines.svg'
+import line_rt from './../../assets/heading_lines_rt.svg'
 
 import './SimpleAccordion.css';
 
@@ -58,8 +60,12 @@ export default function SimpleAccordion() {
 
   return (
     <div className='faq_section' id='faq'>
-      <h1 className='heading'>FREQUENTLY ASKED QUESTIONS</h1>
-      <div className='faq'>
+        <div className='faq_title'>
+          <img src={lines} alt=' ' className='head_lines faq_line'/>             
+          <h1 className='heading'>FREQUENTLY ASKED QUESTIONS</h1>
+          <img src={line_rt} alt=' ' className='head_lines faq_line'/>            
+        </div>
+        <div className='faq'>
         {Faqs.map((faq) => (
           <Accordion className='faq_accor' sx={accStyle} expanded={expanded === `${faq.panel}`} onChange={handleChange(`${faq.panel}`)} key={faq.id}>
             <AccordionSummary expandIcon={<ExpandMoreIcon className='expand_icon'/>}>
