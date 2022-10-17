@@ -88,6 +88,9 @@
         font-family: var(--primary-font);
         color: white;
     }
+    .faq_section {
+        margin-top: 2rem;
+    }
     
 }
 
@@ -98,6 +101,7 @@
 }
 
 @media screen and (max-width: 400px) {
+
     .question{
         font-size: 0.9rem;  
     }
