@@ -1,7 +1,6 @@
 .rewards {
   display: flex;
   flex-direction: column;
-  min-height: 80vh;
   justify-content: space-around;
   align-items: center;
   padding: 3rem;
@@ -14,15 +13,6 @@
   align-items: center;
   gap: 2rem;
   margin-bottom: 2rem;
-}
-
-
-
-.abstract_line {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1.5rem;
 }
 
 .head_lines {
@@ -83,7 +73,6 @@
 .reward_circle h2 {
   font-family: var(--primary-font);
   font-weight: 600;
-  /* text-shadow: 0px 4px 27px #05eafaa2; */
   font-size: 3.5rem;
   color: white;
 
@@ -106,150 +95,140 @@
 }
 
 
-@media(max-width:992px)
-{ .abstract_line{
-   display:none; 
-}
-.rewards_mid {
-  flex-direction: column;
-} 
-}
-@media only screen and (max-width: 1200px) and (max-height: 764px) {
-}
 
 @media only screen and (max-width: 1300px) {
-  .rewards {
-    margin: 55px 0;
-  }
-  .rewards_head {
-  }
-  .abstract_line {
-    gap: 0.85rem;
-  }
-  .rewards_line {
-    width: 120px;
-    border-top: 2px solid #ffffff;
-  }
-  .rewards_head {
-    font-size: 4.5rem;
-    gap: 2.4rem;
-  }
   .rewards_mid {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-  .reward_circle {
-    height: 170px;
-    width: 170px;
-  }
-  /*.reward_circle h2 {
-    font-size: 3.8rem;
-  } */
-  .reward_info {
-    width: 22.5%;
-  }
-  .reward_cont {
-    gap: 1.2rem;
-  }
-
-  .rewards_cont h1 {
-    font-size: 2.25rem;
-  }
-  .rewards_cont p {
-    font-size: 1.2rem;
+    width: 80%;
   }
 }
 
 @media only screen and (max-width: 1200px) {
+  .rewards_mid {
+    width: 90%;
+  }
+
+  .rewards_head h1 {
+    font-size: 2.8rem;
+  }
 }
 
 @media only screen and (max-width: 1100px) {
+  .rewards_mid {
+    width: 100%;
+  }
+
+  .rewards_head {
+    gap: 1rem;
+  }
+
+  .rewards_head h1 {
+    font-size: 2.5rem;
+  }
+
+  .rewards_cont h1 {
+    font-size: 1.6rem;
+  
+  }
+  
+  .rewards_cont p { 
+    font-size: 0.9rem;
+  }
 }
 
+
 @media screen and (max-width: 992px) {
+  .rewards {
+    padding: 1rem;
+    margin-top: 2rem;
+  }
   .rewards_head {
-    /*grid-gap: 2rem;  */
+    gap: 0.5rem;
   }
+
   .rewards_head h1 {
-    font-size: 3.2rem;
+    font-size: 2.3rem;
   }
-  .rewards_mid {
-    /*fix gap  grid-gap: ; */
-    padding-top: 2.2rem;
-    padding-bottom: 2.2rem;
-  }
-  .reward_circle {
-    height: 170px;
-    width: 170px;
-  }
-   /*.reward_circle h2 {
-    font-size: 3.6rem;
-  } */
+
   .rewards_cont h1 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
+  
   }
-  .rewards_cont p {
-    font-size: 1rem;
+  
+  .rewards_cont p { 
+    font-size: 0.9rem;
   }
 }
 
 @media screen and (max-width: 800px) {
-.rewards_head h1{
-  font-size: 3.5rem;
+  .reward_circle {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .reward_circle h2 {
+    font-size: 3rem;  
+  }
+  
+  .rewards_cont h1 {
+    font-size: 1.3rem;
+  
+  }
+  
+  .rewards_cont p { 
+    font-size: 0.8rem;
+  }
+
+  .reward_info {
+    width: 30%;
+  }
+  
 }
-.rewards_mid {
-  padding-bottom: 1rem;
-  width: 85%;
-  padding-top: 2.2rem;
+
+@media screen and (max-width: 600px) {
+  .rewards_head h1 {
+    font-size: 1.9rem;
+    text-align: center;
+  }
+
+  .rewards_mid {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0rem;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .reward_two {
+    display: flex;
+    transform: translateY(0%);
+    margin-top: 0rem;
+  }
+
+  .reward_info {
+    width: 50%;
+  }
+
+
+  /* .rewards_cont h1 {
+    font-size: 1.2rem;
+  
+  }
+  
+  .rewards_cont p { 
+    font-size: 0.7rem;
+  } */
 }
-.reward_info{
-  width: 70%;
-  padding-top: 2.6rem;
-  padding-bottom: 2.6rem;
-}
-.reward_circle {
-  height: 160px;
-  width: 160px;
-}
-/*.reward_circle h2{
-  font-size: 3.6rem;
-} */
-.rewards_cont h1{
-  font-size: 2.4rem; 
-  padding-top: 1.4rem;
-}
-.rewards_cont p{
-  font-size: 1.4rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-}
+
 @media screen and (max-width: 400px) {
   .rewards {
-    min-height: 400vh;
+    padding: 0.5rem;
+    gap: 1.5rem;
   }
-  .rewards_head {
-    /*grid-gap: 2rem;  */
-    gap: 1.6rem;
-  }
-  .rewards_head h1 {
-    font-size: 2rem;
-    line-height: 2.2rem;
-  }
-  /*.reward_circle h2 {
-    font-size: 3.8rem;
-  } */
+
   .reward_info {
     width: 70%;
-    padding-bottom: 3.8rem;
   }
-  .rewards_cont h1 {
-    font-size: 1.5rem;
-    padding: 0rem;
-    width: 80%;
-  }
-  .rewards_cont p {
-    font-size: 0.9rem;
-  }
+
+  
 }
 
